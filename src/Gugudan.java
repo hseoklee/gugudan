@@ -2,15 +2,24 @@ import java.util.Scanner;
 
 public class Gugudan {
 	public static void main(String[] args) {
-		int[] result = new int[9];
-		for(int i = 0; i < result.length; i++) {
-			result[i] = 2*(i+1);
+		
+		System.out.println("출력할 구구단을 입력하세요: ");
+		Scanner scanner = new Scanner(System.in);
+		int number = scanner.nextInt();
+		
+		if(number > 1 & number < 10) {
+			for(int i = 1; i < 10; i++) {
+				System.out.println(number * i);
+			}
+		}
+		else {
+			System.out.println("잘못 입력하셨습니다....");
 		}
 		
-		for (int i = 0; i < result.length; i++)
-			System.out.println(result[i]);
 	}
- 
 }
+
+
+
 
 
