@@ -13,9 +13,8 @@ public class Gugudan {
 			}
 		}
 		else {
-			System.out.println("잘못 입력하셨습니다....");
+			System.out.println("잘못 입력하셨습니다...");
 		}
-		
 	}
 }
 
